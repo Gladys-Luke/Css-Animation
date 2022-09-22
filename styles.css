@@ -43,4 +43,8 @@ h1::after{
     100%{
         transform: translateX(-50%) translateY(-50%) rotate(360deg);
     }
+    @media (max-width:360px){
+        h1{
+            font-size: 30px;
+        }
 }
